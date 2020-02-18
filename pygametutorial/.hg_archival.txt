@@ -1,0 +1,6 @@
+repo: ff5f763093769902dac5f101b33a9704a790606a
+node: 85b68dd28cb17c015ee9f245015256d5c9acf8be
+branch: default
+latesttag: event1.0
+latesttagdistance: 1
+changessincelatesttag: 1
