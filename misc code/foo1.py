@@ -31,7 +31,7 @@ screen = pygame.display.set_mode(size)
 ball = pygame.image.load("intro_ball.gif")
 
 # create variable 'ballrect' and set value to pygame method
-# ball.get_rect() (this indicates "ball direction")
+# ball.get_rect() (ball rectangle and establishes size)
 ballrect = ball.get_rect()
 
 # ---Game Loop---
@@ -53,7 +53,7 @@ while 1:
         if event.type == pygame.QUIT: sys.exit()
 
     # each time the main loop iterates, set the 
-    # balls direction based on the value input from
+    # balls rectangle moves based on the value input from
     # 'speed'
         
     ballrect = ballrect.move(speed)
@@ -79,5 +79,5 @@ while 1:
 
     # set game display to act in a way similar to a flip
     # book for image movement
-    
+
     pygame.display.flip()
